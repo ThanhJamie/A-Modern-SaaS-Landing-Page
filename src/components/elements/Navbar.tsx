@@ -4,11 +4,12 @@ import { NavItem } from "../shared/NavItem";
 import { BtnLink } from "../shared/BtnLink";
 import { useThemeStore } from "../../store/ThemeStore";
 
-const navItems = [
+// eslint-disable-next-line react-refresh/only-export-components
+export const navItems = [
   { text: "Home", href: "#" },
   { text: "Service", href: "#service" },
   { text: "About Us", href: "#about-us" },
-  { text: "Features", href: "#features" },
+  { text: "Pricing", href: "#pricing" },
 ];
 
 export const Navbar = () => {
